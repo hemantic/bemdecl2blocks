@@ -1,0 +1,29 @@
+{
+  "name": "bemdecl2blocks",
+  "version": "0.1.0",
+  "description": "A simple tool for creating bem blocks from declarations (bemdecl.js)",
+  "keywords": [
+    "bem",
+    "markup"
+  ],
+  "author": "Artem Kiselev <artem.kiselev@gmail.com> (https://github.com/hemantic/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemantic/bemdecl2blocks.git"
+  },
+  "main": "./lib/bemdecl2blocks.js",
+  "bin": {
+    "html2bemdecl": "./bin/bemdecl2blocks"
+  },
+  "dependencies": {
+    "jsdom": ">= 0.0.1",
+    "commander": ">= 0.0.1",
+    "child_process": ">= 0.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.6.x"
+  },
+  "scripts": {},  
+  "license": "BSD"
+}
