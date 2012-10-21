@@ -13,12 +13,10 @@
   },
   "main": "./lib/bemdecl2blocks.js",
   "bin": {
-    "html2bemdecl": "./bin/bemdecl2blocks"
+    "bemdecl2blocks": "./bin/bemdecl2blocks"
   },
   "dependencies": {
-    "jsdom": ">= 0.0.1",
-    "commander": ">= 0.0.1",
-    "child_process": ">= 0.0.1"
+    "commander": ">= 0.0.1"
   },
   "devDependencies": {},
   "engines": {
